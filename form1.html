@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advance Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <form>
+        <input name="name" type="text" placeholder="Full name">
+        <input name="password" type="password" placeholder="Password">
+        </form>
+    </div>
+
+    <div>
+        Favorite Color?
+        <form>
+            <input name="color" type="radio" value="red"> Red
+            <input name="color" type="radio" value="green"> Green
+            <input name="color" type="radio" value="blue"> Blue
+            <input name="color" type="radio" value="other"> Other
+        </form>
+    </div>
+    <div>
+        <form>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Afganistan">
+                <option value="Bangladesh">
+            </datalist> 
+        </form>
+    </div>
+    <div>
+        <form>
+            <input name="sex" list="sex" placeholder="Sex">
+            <datalist id="sex">
+                <option value="Male">
+                <option value="Female">
+                <option value="Other">
+            </datalist>
+        </form>
+    </div>
+    <div>
+        <form>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
